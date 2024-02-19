@@ -25,19 +25,17 @@ const Sidebar = () => {
             <ActiveLink path="#two">FEATURED</ActiveLink>
           </li>
           <li>
-            <ActiveLink path="#three">WORK</ActiveLink>
+            <ActiveLink path="#three">WORK PROCESS</ActiveLink>
+          </li>
+
+          <li>
+            <ActiveLink path="#four">EXPERIENCE</ActiveLink>
           </li>
           <li>
-            <ActiveLink path="#four">PROCESS</ActiveLink>
+            <ActiveLink path="#five">PROJECTS</ActiveLink>
           </li>
           <li>
-            <ActiveLink path="#five">EXPERIENCE</ActiveLink>
-          </li>
-          <li>
-            <ActiveLink path="#six">PROJECTS</ActiveLink>
-          </li>
-          <li>
-            <ActiveLink path="#seven">TESTIMONIALS</ActiveLink>
+            <ActiveLink path="#six">TESTIMONIALS</ActiveLink>
           </li>
           <li>
             <ActiveLink path="#seven">BLOG</ActiveLink>
