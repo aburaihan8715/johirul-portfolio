@@ -1,0 +1,30 @@
+:root {
+  --bgPrimary: #9378e4;
+  --bgDark: #222;
+  --textWhite: #fff;
+  --textLightWhite: #656565;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: var(--textWhite);
+  background-color: var(--bgDark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /* transition: all 0.3s; */
+}

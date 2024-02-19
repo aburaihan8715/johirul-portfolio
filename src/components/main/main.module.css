@@ -1,0 +1,19 @@
+.container {
+  flex: 4;
+  height: 100vh;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+section {
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+section:nth-child(odd) {
+  background-color: rgb(193, 184, 201);
+}

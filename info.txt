@@ -1,0 +1,16 @@
+// Pending tasks
+
+
+
+
+
+
+
+// Technologies used
+
+1.react
+2.react-icons
+3.react-router-dom
+4.react-router-hash-link
+
+

@@ -1,0 +1,8 @@
+.listLink {
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.listLink:hover {
+  border-bottom: 2px solid var(--bgPrimary);
+}

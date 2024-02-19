@@ -1,0 +1,42 @@
+.container {
+  flex: 1;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  overflow-y: scroll;
+}
+
+.profileBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.profileImg {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profileName {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  color: var(--textLightWhite);
+}
