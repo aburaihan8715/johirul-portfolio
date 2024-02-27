@@ -5,8 +5,12 @@ import styles from "./home.module.css";
 const Home = () => {
   return (
     <div className={styles.container}>
-      <Sidebar />
-      <Main />
+      <aside className={styles.sidebar}>
+        <Sidebar />
+      </aside>
+      <main className={styles.main}>
+        <Main />
+      </main>
     </div>
   );
 };

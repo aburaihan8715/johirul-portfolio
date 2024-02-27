@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 0rem 3.5rem 0rem;
+}
+
+.wrapper {
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.desc {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: var(--textWhiteDark);
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+.button {
+  padding: 1.5rem 2rem;
+  background: transparent;
+  border-radius: 5px;
+  align-self: flex-start;
+  border: none;
+  background-color: var(--bgPrimary);
+  color: var(--textWhite);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: var(--bgPrimaryShade);
+  -webkit-box-shadow: 0px 0px 4px 2px #ffffff;
+  box-shadow: 0px 0px 4px 2px #ffffff;
+}
