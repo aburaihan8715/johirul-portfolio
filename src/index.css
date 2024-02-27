@@ -35,3 +35,8 @@ a {
   color: inherit;
   /* transition: all 0.3s; */
 }
+
+/* THIS FOR REACT TAB */
+.react-tabs__tab--selected {
+  background-color: var(--bgPrimary);
+}

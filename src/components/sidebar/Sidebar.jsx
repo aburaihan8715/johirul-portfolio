@@ -21,10 +21,10 @@ const Sidebar = () => {
       <nav>
         <ul className={styles.list}>
           <li>
-            <ActiveLink path="#one">HOME</ActiveLink>
+            <ActiveLink path="#banner">HOME</ActiveLink>
           </li>
           <li>
-            <ActiveLink path="#two">FEATURED</ActiveLink>
+            <ActiveLink path="#featured">FEATURED</ActiveLink>
           </li>
           <li>
             <ActiveLink path="#three">WORK PROCESS</ActiveLink>
@@ -34,7 +34,7 @@ const Sidebar = () => {
             <ActiveLink path="#four">EXPERIENCE</ActiveLink>
           </li>
           <li>
-            <ActiveLink path="#five">PROJECTS</ActiveLink>
+            <ActiveLink path="#projects">PROJECTS</ActiveLink>
           </li>
           <li>
             <ActiveLink path="#six">TESTIMONIALS</ActiveLink>

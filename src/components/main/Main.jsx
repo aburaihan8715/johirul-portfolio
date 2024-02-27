@@ -1,28 +1,27 @@
 import Banner from "../banner/Banner";
 import Featured from "../featured/Featured";
+import Projects from "../projects/Projects";
 import styles from "./main.module.css";
 
 const Main = () => {
   return (
     <>
-      <section id="one">
+      <section id="banner">
         <Banner />
       </section>
 
-      <section id="two" className={styles.sectionTwo}>
-        SECTION TWO
-      </section>
-
-      <section id="three">
+      <section id="featured" className={styles.sectionTwo}>
         <Featured />
       </section>
+
+      <section id="three">SECTION THREE</section>
 
       <section id="four" className={styles.sectionFour}>
         SECTION FOUR
       </section>
 
-      <section id="five" className={styles.sectionFive}>
-        SECTION FIVE
+      <section id="projects" className={styles.sectionFive}>
+        <Projects />
       </section>
 
       <section id="six" className={styles.sectionSix}>
