@@ -2,6 +2,8 @@ import styles from "./sidebar.module.css";
 import { FaDribbble, FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
 import ActiveLink from "../ui/activeLink/ActiveLink";
 
+const date = new Date().toUTCString().slice(4, 16);
+
 const Sidebar = () => {
   return (
     <div className={styles.container}>
@@ -9,7 +11,7 @@ const Sidebar = () => {
       <div className={styles.profileBox}>
         <img
           className={styles.profileImg}
-          src="https://scontent.fdac27-2.fna.fbcdn.net/v/t39.30808-6/261454402_1265115780654982_5415994293805140829_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=nwXe5RNB0SQAX8bfcZD&_nc_ht=scontent.fdac27-2.fna&oh=00_AfCo8AHt3tck88Mv0yTPPCotcWHcOBnR-_tYhXR8Hrd2Tw&oe=65D7639F"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo-32Ofl4NZ6wM3-l_TUv1zT-CCgh5sFe2U-RCjdGAhg&s"
           alt="user profile"
         />
         <span className={styles.profileName}>JOHIRUL</span>
@@ -63,7 +65,7 @@ const Sidebar = () => {
       </div>
 
       {/* COPYRIGHT */}
-      <p className={styles.copyright}>&copy; 2024 Johirul Islam</p>
+      <p className={styles.copyright}>&copy; {date} Johirul Islam</p>
     </div>
   );
 };

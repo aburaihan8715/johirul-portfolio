@@ -1,8 +1,11 @@
 :root {
-  --bgPrimary: #9378e4;
-  --bgDark: #222;
+  --bgPrimaryTint: #9b84df;
+  --bgPrimary: #5e3aca;
+  --bgPrimaryShade: #4823b9;
+  --bgDark: #111;
   --textWhite: #fff;
-  --textLightWhite: #656565;
+  --textWhiteDark: #ddd;
+  --textGray: #656565;
 }
 
 * {
@@ -18,7 +21,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--textWhite);
   background-color: var(--bgDark);
 }
