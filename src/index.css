@@ -21,7 +21,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--textWhite);
   background-color: var(--bgDark);
 }
@@ -39,4 +39,16 @@ a {
 /* THIS FOR REACT TAB */
 .react-tabs__tab--selected {
   background-color: var(--bgPrimary);
+}
+
+/* THIS FOR SWIPER  */
+.swiper-pagination-bullet {
+  background-color: var(--textGray);
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--bgPrimary);
+}
+
+section {
+  border-bottom: 1px solid gray;
 }

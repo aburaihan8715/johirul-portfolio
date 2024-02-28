@@ -1,7 +1,11 @@
-import Banner from "../banner/Banner";
-import Featured from "../featured/Featured";
-import Projects from "../projects/Projects";
-import styles from "./main.module.css";
+import Banner from '../banner/Banner';
+import Blogs from '../blogs/Blogs';
+import Contact from '../contact/Contact';
+import ExperienceTimeline from '../experienceTimeline/ExperienceTimeline';
+import Featured from '../featured/Featured';
+import Projects from '../projects/Projects';
+import Testimonials from '../testimonials/Testimonials';
+import WorkProcess from '../workProcess/WorkProcess';
 
 const Main = () => {
   return (
@@ -10,30 +14,32 @@ const Main = () => {
         <Banner />
       </section>
 
-      <section id="featured" className={styles.sectionTwo}>
+      <section id="featured">
         <Featured />
       </section>
 
-      <section id="three">SECTION THREE</section>
-
-      <section id="four" className={styles.sectionFour}>
-        SECTION FOUR
+      <section id="three">
+        <WorkProcess />
       </section>
 
-      <section id="projects" className={styles.sectionFive}>
+      <section id="four">
+        <ExperienceTimeline />
+      </section>
+
+      <section id="projects">
         <Projects />
       </section>
 
-      <section id="six" className={styles.sectionSix}>
-        SECTION SIX
+      <section id="six">
+        <Testimonials />
       </section>
 
-      <section id="seven" className={styles.sectionSeven}>
-        SECTION SEVEN
+      <section id="seven">
+        <Blogs />
       </section>
 
-      <section id="eight" className={styles.sectionEight}>
-        SECTION EIGHT
+      <section id="eight">
+        <Contact />
       </section>
     </>
   );
