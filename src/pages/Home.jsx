@@ -1,6 +1,6 @@
-import Main from "../components/main/Main";
-import Sidebar from "../components/sidebar/Sidebar";
-import styles from "./home.module.css";
+import Main from '../components/main/Main';
+import Sidebar from '../components/sidebar/Sidebar';
+import styles from './home.module.css';
 
 const Home = () => {
   return (

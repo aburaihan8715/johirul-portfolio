@@ -1,4 +1,4 @@
-import styles from "./banner.module.css";
+import styles from './banner.module.css';
 
 const Banner = () => {
   return (
@@ -11,13 +11,21 @@ const Banner = () => {
         </h1>
 
         <p className={styles.desc}>
-          I am Jahirul Islam, UX Lead @ <strong>Oter.app</strong> . I&apos;ve designed for{" "}
-          <strong>Telenor, Robi, SwissLife, CarteleraApp, Dingi, Faithcircle, Zantrik, Ostad</strong> & many more companies helping them to grow. I
-          <strong>turn business</strong> ideas into great products with an undying passion for delivering <strong>delightful user experiences</strong>
-          .
+          I am Jahirul Islam, UX Lead @ <strong>Oter.app</strong> . I&apos;ve
+          designed for{' '}
+          <strong>
+            Telenor, Robi, SwissLife, CarteleraApp, Dingi, Faithcircle, Zantrik,
+            Ostad
+          </strong>{' '}
+          & many more companies helping them to grow. I
+          <strong>turn business</strong> ideas into great products with an
+          undying passion for delivering{' '}
+          <strong>delightful user experiences</strong>.
         </p>
 
-        <button className={styles.button}>HIRE ME AS US CONSULTANT &rarr;</button>
+        <button className={styles.button}>
+          HIRE ME AS US CONSULTANT &rarr;
+        </button>
       </div>
     </div>
   );

@@ -1,0 +1,21 @@
+.container {
+  padding: 10rem 0;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+}
+
+.swiper {
+  height: 15rem;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slide span {
+  font-size: 5rem;
+}

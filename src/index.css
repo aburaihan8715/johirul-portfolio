@@ -50,5 +50,10 @@ a {
 }
 
 section {
-  border-bottom: 1px solid gray;
+  border-bottom: 0.5px solid gray;
+}
+
+.scroll {
+  background: #900404 !important;
+  z-index: '1000' !important;
 }
