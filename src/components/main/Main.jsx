@@ -7,7 +7,7 @@ import Featured from '../featured/Featured';
 import FunFacts from '../funFacts/FunFacts';
 import Pricing from '../pricing/Pricing';
 import Projects from '../projects/Projects';
-import Teaching from '../teaching/Teaching';
+
 import Testimonials from '../testimonials/Testimonials';
 import TrustedBy from '../trustedBy/TrustedBy';
 import WorkProcess from '../workProcess/WorkProcess';
@@ -31,9 +31,9 @@ const Main = () => {
         <WorkProcess />
       </section>
 
-      <section>
+      {/* <section>
         <Teaching />
-      </section>
+      </section> */}
 
       <section id="four">
         <ExperienceTimeline />

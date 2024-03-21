@@ -31,11 +31,23 @@ const Projects = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
                   key={item}
+                  whileHover={{ scale: 1.05 }}
+                  className={styles.projectsItem}
                 >
-                  <img
-                    src="https://images.pexels.com/photos/7088828/pexels-photo-7088828.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt=""
-                  />
+                  <div className={styles.wrapper}>
+                    <img
+                      className={styles.projectsItemImg}
+                      src="https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      alt=""
+                    />
+
+                    <div className={styles.overlay}>
+                      <h3 className={styles.overlayHeading}>Name of project</h3>
+                      <p className={styles.overlayDesc}>
+                        Lorem ipsum dolor sit amet.
+                      </p>
+                    </div>
+                  </div>
                 </motion.div>
               )
             )}
@@ -49,11 +61,23 @@ const Projects = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
                 key={item}
+                whileHover={{ scale: 1.05 }}
+                className={styles.projectsItem}
               >
-                <img
-                  src="https://images.pexels.com/photos/1367202/pexels-photo-1367202.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt=""
-                />
+                <div className={styles.wrapper}>
+                  <img
+                    className={styles.projectsItemImg}
+                    src="https://images.pexels.com/photos/7114/laptop-mobile.jpg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
+
+                  <div className={styles.overlay}>
+                    <h3 className={styles.overlayHeading}>Name of project</h3>
+                    <p className={styles.overlayDesc}>
+                      Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </TabPanel>
@@ -66,11 +90,23 @@ const Projects = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
                 key={item}
+                whileHover={{ scale: 1.05 }}
+                className={styles.projectsItem}
               >
-                <img
-                  src="https://images.pexels.com/photos/5355731/pexels-photo-5355731.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt=""
-                />
+                <div className={styles.wrapper}>
+                  <img
+                    className={styles.projectsItemImg}
+                    src="https://images.pexels.com/photos/267447/pexels-photo-267447.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                  />
+
+                  <div className={styles.overlay}>
+                    <h3 className={styles.overlayHeading}>Name of project</h3>
+                    <p className={styles.overlayDesc}>
+                      Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </TabPanel>

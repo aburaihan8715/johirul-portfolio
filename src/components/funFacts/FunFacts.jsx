@@ -1,6 +1,7 @@
 import styles from './funFacts.module.css';
 import { FaBuffer } from 'react-icons/fa6';
 import { FaClock, FaCoffee, FaRecycle } from 'react-icons/fa';
+
 import CountUp from 'react-countup';
 
 const FunFacts = () => {
@@ -11,7 +12,7 @@ const FunFacts = () => {
         <div className={styles.listItem}>
           <FaBuffer className={styles.icon} />
           <span className={styles.number}>
-            <CountUp duration={5} end={100} />
+            <CountUp duration={15} end={100} />
           </span>
           <p className={styles.infoText}>Projects Completed</p>
         </div>
@@ -19,7 +20,7 @@ const FunFacts = () => {
         <div className={styles.listItem}>
           <FaCoffee className={styles.icon} />
           <span className={styles.number}>
-            <CountUp duration={5} end={1300} />
+            <CountUp duration={15} end={1300} />
           </span>
           <p className={styles.infoText}>Cup of coffee</p>
         </div>
@@ -27,7 +28,7 @@ const FunFacts = () => {
         <div className={styles.listItem}>
           <FaClock className={styles.icon} />
           <span className={styles.number}>
-            <CountUp duration={5} end={5700} />
+            <CountUp duration={15} end={5700} />
           </span>
           <p className={styles.infoText}>Hours worked</p>
         </div>
@@ -35,7 +36,7 @@ const FunFacts = () => {
         <div className={styles.listItem}>
           <FaRecycle className={styles.icon} />
           <span className={styles.number}>
-            <CountUp duration={5} end={3} />
+            <CountUp duration={15} end={3} />
           </span>
           <p className={styles.infoText}>Ongoing projects</p>
         </div>

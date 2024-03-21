@@ -7,10 +7,13 @@
 
 
 // Technologies used
-
 1.react
 2.react-icons
 3.react-router-dom
 4.react-router-hash-link
+
+
+// following the project
+https://www.atiqurrahaman.com/?fbclid=IwAR0pn8Ivn69PhuUTabQF34Cu7r9hnQ5TDJTTxxsHBX2sSu-v82D3i610X9I
 
 
