@@ -1,12 +1,23 @@
-import styles from "./sidebar.module.css";
-import { FaDribbble, FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
-import ActiveLink from "../ui/activeLink/ActiveLink";
+/* eslint-disable react/prop-types */
+import styles from './sidebar.module.css';
+import {
+  FaDribbble,
+  FaFacebookF,
+  FaLinkedin,
+  FaRegWindowClose,
+  FaYoutube,
+} from 'react-icons/fa';
+import ActiveLink from '../ui/activeLink/ActiveLink';
 
 const date = new Date().toUTCString().slice(4, 16);
 
-const Sidebar = () => {
+const Sidebar = ({ setIsOpen }) => {
   return (
     <div className={styles.container}>
+      {/* MENU CLOSE BUTTON */}
+      <button onClick={() => setIsOpen(true)} className={styles.iconBox}>
+        <FaRegWindowClose className={styles.icon} />
+      </button>
       {/* PROFILE */}
       <div className={styles.profileBox}>
         <img

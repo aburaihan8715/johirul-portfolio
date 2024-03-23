@@ -14,3 +14,20 @@
   padding: 20px;
   overflow-y: scroll;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #222;
+    transition: 0.5s all ease;
+  }
+
+  .sidebar.open {
+    left: -250px;
+  }
+}

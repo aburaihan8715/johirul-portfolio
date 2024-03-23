@@ -1,4 +1,10 @@
 import styles from './trustedBy.module.css';
+
+import logo1 from '../../../public/images/logos/business-insider.png';
+import logo2 from '../../../public/images/logos/forbes.png';
+import logo3 from '../../../public/images/logos/techcrunch.png';
+import logo4 from '../../../public/images/logos/the-new-york-times.png';
+import logo5 from '../../../public/images/logos/usa-today.png';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -28,7 +34,7 @@ const TrustedBy = () => {
           enabled: true,
         }}
         // breakpoints={{
-        //   769: {
+        //   576: {
         //     slidesPerView: 2,
         //     slidesPerGroup: 2,
         //   },
@@ -40,39 +46,43 @@ const TrustedBy = () => {
         className={styles.swiper}
       >
         <SwiperSlide className={styles.slide}>
-          <span>🥑🥑</span>
+          <img src={logo1} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🍊🍊</span>
+          <img src={logo2} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🥦🥦</span>
+          <img src={logo3} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🌿🌿</span>
+          <img src={logo4} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🍑🍑</span>
+          <img src={logo5} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🌺🌺</span>
+          <img src={logo1} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🍕🍕</span>
+          <img src={logo2} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>🍜🍜</span>
+          <img src={logo3} alt="" />
         </SwiperSlide>
 
         <SwiperSlide className={styles.slide}>
-          <span>✈✈</span>
+          <img src={logo4} alt="" />
+        </SwiperSlide>
+
+        <SwiperSlide className={styles.slide}>
+          <img src={logo5} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

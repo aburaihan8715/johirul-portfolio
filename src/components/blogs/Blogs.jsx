@@ -11,7 +11,7 @@ const Blogs = () => {
             <div className={styles.imgBox}>
               <img
                 className={styles.img}
-                src="https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/414974/pexels-photo-414974.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
               />
               <span className={styles.imgLabel}>BLOG</span>
