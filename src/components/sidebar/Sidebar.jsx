@@ -31,29 +31,29 @@ const Sidebar = ({ setIsOpen }) => {
       {/* NAVIGATION */}
       <nav>
         <ul className={styles.list}>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#banner">HOME</ActiveLink>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#featured">FEATURED</ActiveLink>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#three">WORK PROCESS</ActiveLink>
           </li>
 
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#four">EXPERIENCE</ActiveLink>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#projects">PROJECTS</ActiveLink>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#six">TESTIMONIALS</ActiveLink>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#seven">BLOG</ActiveLink>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(true)}>
             <ActiveLink path="#eight">CONTACT</ActiveLink>
           </li>
         </ul>
